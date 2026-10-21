@@ -14,6 +14,10 @@ venv/
 !data/raw/
 !data/raw/*.csv
 
+# Model artifacts (keep local, avoid GitHub upload limits)
+models/*.joblib
+models/*.pkl
+
 # OS
 .DS_Store
 Thumbs.db
